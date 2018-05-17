@@ -19,7 +19,7 @@ public class Howtofindduplicateelementinarray8 {
 		    		 System.out.println(c);//A
 		    	 }
 		      }
-		     System.out.println(setA);//A
+		     System.out.println(setA);//[A, B, S, H, I, N]
 		     
 
 	}
