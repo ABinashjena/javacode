@@ -16,10 +16,10 @@ public class Howtofindduplicateelementinarray8 {
 		    	 boolean xxxx = setA.add(c);
 		    	 if(xxxx==false)
 		    	 {
-		    		 System.out.println(c);
+		    		 System.out.println(c);//A
 		    	 }
 		      }
-		     System.out.println(setA);
+		     System.out.println(setA);//A
 		     
 
 	}
