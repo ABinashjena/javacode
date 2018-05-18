@@ -9,7 +9,7 @@ public class Howtofindsumofalldigitofanumber9 {
 		
 		
 		Integer in[]= {1,2,3,4,5,0};
-		int len = in.length;
+
 		List<Integer> l= new ArrayList<Integer>();
 		for(int i:in)
 		{
