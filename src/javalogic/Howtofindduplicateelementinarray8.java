@@ -8,7 +8,7 @@ import java.util.Set;
 public class Howtofindduplicateelementinarray8 {
 
 	public static void main(String[] args) {
-		String s= "ABINASH";
+		String s= "ABINASH JENA";
 		      char[] chracter = s.toCharArray();   
 		      Set setA = new HashSet();
 		      for(char c:chracter)
