@@ -10,7 +10,7 @@ public class CountStringNoofChar {
 		
 		String s="abinashjena";
 		char[] charact = s.toCharArray();
-		HashMap<Character ,Integer> hm=new HashMap<Character ,Integer>();//we useing Character as key and Integer as valuse
+		HashMap<Character ,Integer> hm=new HashMap<Character ,Integer>();//we useing Character as key and Integer as value
 		for(char c :charact)
 		{
 			if(hm.get(c)!=null)//here we checking is that character is present prev in hashmap or not if preseent
@@ -28,7 +28,8 @@ public class CountStringNoofChar {
 				 
 				 if(hm.get(tempchar)>1)
 				 {
-					 System.out.println(tempchar +"  no of times    "+ hm.get(tempchar));
+					 System.out.println(tempchar +"  no of times    "+ hm.get(tempchar));//a  no of times    3
+					                                                                     //n  no of times    2
 				 }
 			 }
 			 
